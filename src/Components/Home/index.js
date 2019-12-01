@@ -22,6 +22,7 @@ class Home extends Component{
                 <ThisDeviceFor/>
                 <NeedHelp/>
                 <Footer/>
+
             </div>
         )
     }

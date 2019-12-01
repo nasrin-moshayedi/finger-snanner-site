@@ -12,6 +12,7 @@ import ToysIcon from '@material-ui/icons/Toys';
 class Footer extends React.Component{
     render() {
         return(
+            <div>
             <Grid container justify="space-between" className="footer">
                 <Grid item lg={2} className="footer-logo"/>
                 <Grid item lg={10}>
@@ -72,6 +73,10 @@ class Footer extends React.Component{
                     </Grid>
                 </Grid>
             </Grid>
+                <Typography variant="caption" style={{padding: 10}}>
+                    تمام حقوق متعلق به شرکت دی می باشد
+                </Typography>
+            </div>
         )
     }
 }
