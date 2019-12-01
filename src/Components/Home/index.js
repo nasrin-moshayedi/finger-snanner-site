@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import Menu from "../Menu";
 import MainContent from "../MainContent";
+import Features from "../Features";
 
 class Home extends Component{
     render() {
@@ -8,6 +9,7 @@ class Home extends Component{
             <div>
                 <Menu/>
                 <MainContent/>
+                <Features/>
             </div>
         )
     }

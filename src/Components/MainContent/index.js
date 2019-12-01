@@ -14,7 +14,7 @@ class MainContent extends React.Component{
                     <Typography variant="h5" style={{paddingBottom: 32}}>
                         دستگاه اثر انگشت آرین (T-338321)
                     </Typography>
-                    <Typography variant="subtitle2">
+                    <Typography variant="subtitle1">
                         این دستگاه از جدیدیترین و پیشرفته ترین تکنولوژی ها برای شناسایی اثر انگشت برا خوردار است.
                         این دستگاه از جدیدیترین و پیشرفته ترین تکنولوژی ها برای شناسایی اثر انگشت برا خوردار است.
                         این دستگاه از جدیدیترین و پیشرفته ترین تکنولوژی ها برای شناسایی اثر انگشت برا خوردار است.
