@@ -18,7 +18,7 @@ const Data = [
         icon: <BatteryFullIcon fontSize="large"/>,
         title: "باطری داخلی"
     },
-]
+];
 
 class Features extends React.Component {
     render() {

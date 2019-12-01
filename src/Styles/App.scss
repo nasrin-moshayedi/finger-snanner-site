@@ -12,6 +12,10 @@ body {
   width: 100%;
 }
 
+.center-text {
+  text-align: center;
+}
+
 //top menu
 .top-menu {
   height: 80px;
@@ -61,4 +65,38 @@ body {
     //box-shadow: 216px 0 20px 20px #5e3838;
     padding: 0 10px;
   }
+}
+
+.white-box {
+  background: $white;
+  border-radius: 10px;
+  padding: 50px 50px 20px;
+  color: #393737;
+  box-shadow: 1px 1px 20px 3px #aaa;
+}
+
+.blue-text {
+  color: $light-blue;
+  font-weight: bolder!important;
+}
+
+.margi {
+  margin: 32px 0!important;
+}
+
+.more-info-btn {
+  background: $light-blue!important;
+  color: $white!important;
+  padding: 6px 20px!important;
+  -webkit-border-radius: 10px!important;
+  -moz-border-radius: 10px!important;
+  border-radius: 10px!important;
+  box-shadow: 0 6px 17px -3px $light-blue!important;
+  font-weight: bolder!important;
+  font-size: 16px!important;
+}
+.green-text {
+  color: $green;
+  font-weight: bolder!important;
+  //font-size: 16px!important;
 }
