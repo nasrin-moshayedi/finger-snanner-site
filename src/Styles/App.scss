@@ -2,4 +2,21 @@
 body {
   background: $main-body;
   color: $white;
+  direction: rtl;
+  font-size: 14px;
+  margin: 0!important;
+}
+
+//top menu
+.top-menu {
+  height: 80px;
+  background: $top-menu;
+}
+
+.login-btn {
+  margin-left: 25px!important;
+  background: $light-blue;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
 }
