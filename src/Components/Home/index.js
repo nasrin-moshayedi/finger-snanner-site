@@ -7,6 +7,7 @@ import SomeFeatureList from "../SomeFeatureList";
 import Tiger from "../Tiger";
 import ThisDeviceFor from "../ThisDeviceFor";
 import NeedHelp from "../NeedHelp";
+import Footer from "../Footer";
 
 class Home extends Component{
     render() {
@@ -20,6 +21,7 @@ class Home extends Component{
                 <Tiger/>
                 <ThisDeviceFor/>
                 <NeedHelp/>
+                <Footer/>
             </div>
         )
     }
