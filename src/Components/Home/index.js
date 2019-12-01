@@ -4,6 +4,7 @@ import MainContent from "../MainContent";
 import Features from "../Features";
 import WhyThisDevice from "../WhyThisDevice";
 import SomeFeatureList from "../SomeFeatureList";
+import Tiger from "../Tiger";
 
 class Home extends Component{
     render() {
@@ -14,6 +15,7 @@ class Home extends Component{
                 <Features/>
                 <WhyThisDevice/>
                 <SomeFeatureList/>
+                <Tiger/>
             </div>
         )
     }
