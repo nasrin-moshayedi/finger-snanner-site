@@ -100,3 +100,28 @@ body {
   font-weight: bolder!important;
   //font-size: 16px!important;
 }
+
+//footer
+.footer{
+  background: #144977;
+  margin: 50px 0 20px;
+}
+.footer-logo{
+  background: url("./../Images/footer-logo.png") no-repeat center;
+  background-size: cover;
+  height: 394px;
+}
+.footer-title{
+  border-bottom: 1px solid $white;
+  padding: 10px;
+  margin-bottom: 10px!important;
+}
+
+.social-networks {
+  color: #144977;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  padding: 7px;
+  font-size: 30px;
+  margin: 10px;
+}
