@@ -26,7 +26,7 @@ class TopMenu extends React.Component{
 
     render() {
         return (
-            <Grid container justify="space-between" alignItems="center" className="top-menu">
+            <Grid container justify="space-around" alignItems="center" className="top-menu">
                 <Grid item xs={6}>
                     <Grid container justify="space-between" alignItems="center">
                         <img src={Logo}/>
