@@ -3,6 +3,7 @@ import Menu from "../Menu";
 import MainContent from "../MainContent";
 import Features from "../Features";
 import WhyThisDevice from "../WhyThisDevice";
+import SomeFeatureList from "../SomeFeatureList";
 
 class Home extends Component{
     render() {
@@ -12,6 +13,7 @@ class Home extends Component{
                 <MainContent/>
                 <Features/>
                 <WhyThisDevice/>
+                <SomeFeatureList/>
             </div>
         )
     }

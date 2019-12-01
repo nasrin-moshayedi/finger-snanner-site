@@ -26,7 +26,7 @@ class Features extends React.Component {
             <Grid container justify="center" alignItems="center">
                 {Data.map((item, index) => {
                     return (
-                        <Grid item lg={2}>
+                        <Grid item lg={2} key={index}>
                             <IconList icon={item.icon} title={item.title}/>
                         </Grid>
                     )
