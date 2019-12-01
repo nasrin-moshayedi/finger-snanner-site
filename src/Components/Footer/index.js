@@ -21,8 +21,10 @@ class Footer extends React.Component{
                             <Typography variant="h6" className="footer-title">
                                 دستگاه های اداری تایگر
                             </Typography>
-                            <Typography variant="subtitle1">
-                                دستگاه های اداری تایگر
+                            <Typography variant="overline" style={{fontSize: 14}}>
+                                این دستگاه از جدیدیترین و پیشرفته ترین تکنولوژی ها برای شناسایی اثر انگشت برا خوردار است.
+                                این دستگاه از جدیدیترین و پیشرفته ترین تکنولوژی ها برای شناسایی اثر انگشت برا خوردار است.
+                                این دستگاه از جدیدیترین و پیشرفته ترین تکنولوژی ها برای شناسایی اثر انگشت برا خوردار است.
                             </Typography>
 
                         </Grid>
@@ -46,8 +48,19 @@ class Footer extends React.Component{
                             <Typography variant="h6" className="footer-title">
                                 دستگاه های اداری تایگر
                             </Typography>
-                            <Typography variant="subtitle1" className="footer-title">
-                                دستگاه های اداری تایگر
+
+                            <Typography variant="overline" style={{display:"block"}}>
+                                <LocationOnIcon style={{fontSize: 16, marginLeft: 5}}/>
+                                آدرس دفتر مرکزی
+                                <br/>
+                                تهران-حیابان میرزای شیرازی-خیابان هفتم-پلاک 28
+                            </Typography>
+                            <Typography variant="overline">
+                                <PhoneEnabledIcon style={{fontSize: 16, marginLeft: 5}}/>
+                                شماره تماس با ما 41536000-021
+                            </Typography>
+                            <Typography variant="h6" className="footer-title">
+                                ما را در شبکه های اجتماعی دنبال کنید
                             </Typography>
                             <div >
                                 <TelegramIcon className="social-networks"/>
