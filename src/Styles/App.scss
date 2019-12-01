@@ -39,3 +39,26 @@ body {
   padding: 8px 10px;
   border-radius: 20px;
 }
+
+.content-header {
+  text-align: center;
+  margin: 50px 0 32px;
+  //&::after {
+  //  content: "";
+  //  width: 10px;
+  //  height: 1px;
+  //  border: none;
+  //  background: $white;
+  //}
+  &::before{
+
+  }
+}
+
+.he {
+  &::after {
+      content: "";
+    //box-shadow: 216px 0 20px 20px #5e3838;
+    padding: 0 10px;
+  }
+}

@@ -4,7 +4,7 @@ import ContentHeader from "../ShareComponent/ContentHeader";
 class WhyThisDevice extends React.Component{
     render() {
         return(
-            <ContentHeader/>
+            <ContentHeader title="چرا باید از این دستگاه استفاده گنیم؟"/>
         )
     }
 }
